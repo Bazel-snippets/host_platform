@@ -1,0 +1,5 @@
+load("host_platform.bzl", "host_platform_macro")
+
+host_platform_macro(
+    name = "host_platform_sample",
+)
